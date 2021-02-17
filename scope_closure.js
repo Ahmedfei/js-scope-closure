@@ -31,6 +31,7 @@ let count = 0;
 function counter2() {
   return count++;
 }
+//the first instance the counter fuction is within the the counter function, you can use it when you want to make it private. the second one the count is declared outside and can be accesible outside 
 
 
 /******************************************************************************\
@@ -46,10 +47,9 @@ function motivation(firstname, lastname) {
   var welcomeText = 'You\'re doing awesome, keep it up ';
 
   // code message function here.
+function message (motivation)
 
-
-  //Uncommment this to return the value of your invoked message function
-  //return message();
+  return message("mohamed","Ali" + "you are doing awesome");
 
 }
 
